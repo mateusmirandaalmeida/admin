@@ -1,0 +1,26 @@
+{
+  "name": "admin",
+  "authors": [
+    "Mateus Miranda <info.mateusmiranda@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gentelella": "1.4.0",
+    "jquery": "3.2.1",
+    "angular": "1.5.8",
+    "requirejs": "2.3.3",
+    "angular-ui-router": "0.4.2",
+    "angular-bootstrap": "2.5.0",
+    "bootstrap": "3.3.7"
+  }
+}
