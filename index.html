@@ -12,10 +12,13 @@
   </head>
   <body class="nav-md" cz-shortcut-listen="true">
 
-    <div ui-view class="container body" style="height: 100%"></div>
+    <div ui-view class="container body" style="height: 100%">
+    </div>
 
     <script src="bower_components/requirejs/require.js"></script>
     <script src="app/config.js"></script>
+
+
     <script>
       //CHAMA O ARQUIVO APP PARA INICIALIZAÇÃO DO FRONT.
       requirejs(['angular', 'app/app'], function (angular) {

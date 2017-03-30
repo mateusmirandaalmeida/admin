@@ -5,9 +5,9 @@ define(function(require) {
     require('angular-bootstrap');
     require('angular-ui-router');
     require('app/apiLocations');
-    require('gentelella');
-
     require('app/modules/home/home');
+
+    require('gentelella');
 
     angular.module('app.core', [
         'ui.router',

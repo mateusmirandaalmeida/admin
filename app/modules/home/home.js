@@ -4,7 +4,7 @@ define(function(require) {
 
   require('./services/module');
   require('./controllers/module');
-
+  
   return require('angular')
     .module('app.home', [
       'app.home.controllers',
