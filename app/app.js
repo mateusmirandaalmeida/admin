@@ -2,6 +2,10 @@ define(function(require) {
     'use strict';
 
     require('angular');
+    require('locale');
+    window.moment = require('moment');
+    require('gumga-date-ng');
+    
     require('angular-bootstrap');
     require('angular-ui-router');
     require('app/apiLocations');
@@ -11,6 +15,7 @@ define(function(require) {
 
     angular.module('app.core', [
         'ui.router',
+        'gumga.date',
         'ui.bootstrap',
         'app.home'
     ])
